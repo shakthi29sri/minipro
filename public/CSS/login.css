@@ -13,7 +13,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4070f4;
+    
+   
 }
 
 .container{
@@ -147,7 +148,7 @@ body{
 }
 
 .form a.text{
-    color: #4070f4;
+    color: white;
     text-decoration: none;
 }
 .form a:hover{
