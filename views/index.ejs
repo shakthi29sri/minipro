@@ -15,6 +15,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <script>
+    function myFunction() {
+      alert("Thank you!! Your message is sent");
+    }
+    </script>
 </head>
 
 <body>
@@ -27,7 +32,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" id="active" aria-current="page" href="/interest">HOME</a>
+            <a class="nav-link active" id="active" aria-current="page" href="/">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="links" href="#contact">CONTACTS</a>
@@ -140,13 +145,14 @@
                 <span>Write your message here...</span>
               </div>
               <div class="inputbox w50">
-                <input type="submit" value="Send">
+                <button onclick="myFunction()">Send</button>
+
               </div>
             </div>
           </div>
         </div>
       </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="JS/scripts.js"></script>
+      
     </body>
     </html>
